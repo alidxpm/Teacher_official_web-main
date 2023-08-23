@@ -1,0 +1,47 @@
+.word{
+    display: flex;
+    flex-direction: column;
+    flex:6;
+    padding: 44px 20px 20px 55px;
+}
+.title{
+    color: #0F7BDE;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resource{
+    margin: 5px auto 5px 0;
+    color: #86909C;
+    font-size: 12px;
+}
+.content{
+   font-family: 'PingFang SC';
+   font-size: 13px;
+   color: #000; 
+   font-weight: 500;
+
+}
+.knowmore{
+    display: block;
+    color: #0F7BDE;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.knowmore::after{
+    font-weight: 500;
+    margin-top: 7px;
+    position: absolute;
+    margin-left: 10px;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #0F7BDE;
+    border-right: 1px solid #0F7BDE;
+    transform:rotate(45deg);
+}
+.picture{
+    flex:4;
+    margin-top: 12px;
+}
